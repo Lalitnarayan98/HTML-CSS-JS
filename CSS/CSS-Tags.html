@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML tags for CSS</title>
+	<style type="text/css">
+		span{
+			background-color: blue;
+			color: white;
+			width: 300px;
+		}
+		#firstDiv{
+			border: 2px solid red;
+			height: 200px;
+			width: 600px;
+/*			margin-left: 38%;*/
+			background-image: url(../image/bg.jpg);
+			color: white;
+			font-style: italic;
+			text-decoration: underline;
+			cursor: progress;
+		}
+		input{
+			margin-left: 268px;
+		}
+
+		a{
+			text-decoration: none;
+			font-weight: bolder;
+			cursor: default;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- Div : division -->
+	<!-- span : <span> -->
+	<p>Hello this is <span>text</span> for test.</p>
+
+	<div id="firstDiv">
+		<form>
+		<p>Register yourself.</p>
+		<label for="name">Name : </label>
+		<input class="textType" type="text" id="name"/><br>
+
+		<label for="email">Email : </label>
+		<input class="textType" id="email" type="email"/></br>
+
+		<label for="pass">Password : </label>
+		<input class="textTpe" id="pass" type="password"/></br>
+
+		<label for="age">Age : </label>
+		<input class="textType" id="age" type="number" /></br>
+
+		<label for="m">Gender : </label>
+		<input id="m" type="radio" name="gender">Male</input>
+		<input type="radio" name="gender">Female</input>
+		<input type="radio" name="gender">Other</input></br>
+		</form>
+	</div>
+	<a href="#"> hello</a>
+</body>
+</html>
